@@ -2,7 +2,7 @@
 You can find the two challenges we looked at in the workshop here. Each has file has multiple implementations that give us the same output. You can find the question as a docstring at the top of the file. We suggest that you read it and attempt solving the problem on your own before going through the different solutions.
 
 # Tests
-## Unit Tests using unittest
+### Unit Tests using unittest
 For running tests on all implementations of both questions, simply run the `tests.py` file. 
 Alternatively, you can run the following command in the terminal(macOS) or command prompt(Windows):
     $python3 -m unittest tests
