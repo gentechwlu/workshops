@@ -5,7 +5,9 @@ You can find the two challenges we looked at in the workshop here. Each has file
 ### Unit Tests using unittest
 For running tests on all implementations of both questions, simply run the `tests.py` file. 
 Alternatively, you can run the following command in the terminal(macOS) or command prompt(Windows):
-    $python3 -m unittest tests
+```
+python3 -m unittest tests
+```
 
 ### Testing manually
 You can also test each file/implementation by creating a python file:
