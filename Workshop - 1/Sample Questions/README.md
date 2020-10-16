@@ -7,7 +7,7 @@ For running tests on all implementations of both questions, simply run the `test
 Alternatively, you can run the following command in the terminal(macOS) or command prompt(Windows):
     $python3 -m unittest tests
 
-## Testing manually
+### Testing manually
 You can also test each file/implementation by creating a python file:
 ```python3
 # Example using longestSequence
