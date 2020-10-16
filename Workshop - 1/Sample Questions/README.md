@@ -8,7 +8,7 @@ Alternatively, you can run the following command in the terminal(macOS) or comma
     $python3 -m unittest tests
 
 ## Testing manually
-You can also test each file by creating a python file:
+You can also test each file/implementation by creating a python file:
 ```python3
 # Example using longestSequence
 from Questions.longest_sequence import longestSequence
