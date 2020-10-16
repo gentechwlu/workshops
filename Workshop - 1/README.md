@@ -1,3 +1,4 @@
+![Workshops Header Image](../Images/workshops-header.png)
 # GenTech: Workshop - 1
 
 This workshop was aimed at understanding the definitions of runtime and complexity. We looked at how to analyze the complexities of a variety of algorithms. Professor Watson also shared a number of tips and tricks to do well on technical interviews.
