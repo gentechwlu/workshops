@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Workshop Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light "> 
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#contact">Contact Me!</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <div class="container-fluid" id="home">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <h1 id="name">Jane Doe</h1>
+                    <p id="tagline">I make websites!</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- Image from undraw.co -->
+                    <img src="/images/web_dev.svg" alt="Website Developer">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="projects">
+            <div class="row">
+                <div class="col">
+                    <h1>Projects</h1>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/images/mobile-app.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/mobile-app.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/mobile-app.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </a>
+                  </div>
+            </div>
+        </div>
+        <div class="container" id="skills">
+            <h1>Skills</h1>
+            <div class="row">
+                <div class="col">
+                    <ion-icon name="logo-html5" class="icons"></ion-icon>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <ion-icon name="logo-css3" class="icons"></ion-icon>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <ion-icon name="logo-javascript" class="icons"></ion-icon>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <ion-icon name="logo-python" class="icons"></ion-icon>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="contact">
+            <h1>Contact Me!</h1>
+            <div class="row">
+                <div class="col">
+                    <form action="https://formspree.io/f/{YOUR CODE HERE}" method="POST">
+                        <div class="mb-3">
+                          <label for="exampleInputName" class="form-label">Name</label>
+                          <input name="name" type="text" class="form-control" id="exampleInputName" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                          <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/company/gentech-official"><ion-icon name="logo-linkedin"></a></ion-icon></li>
+                        <li><a href="https://github.com/gentechwlu"><ion-icon name="logo-github"></a></ion-icon></li>
+                        <li><a href="https://gentechwlu.com"><ion-icon name="globe-outline"></a></ion-icon></li>
+                        <li><a href="https://www.instagram.com/gentechwlu/"><ion-icon name="logo-instagram"></a></ion-icon></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h6>&copy; 2021 &mid; GenTech</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+</html>

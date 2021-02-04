@@ -1,0 +1,109 @@
+/* General Styling */
+main .container-fluid,
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Nav styling*/
+nav {
+  background-color: white;
+}
+
+.nav-link {
+  font-size: x-large;
+  padding: 10px 20px;
+  margin-right: 3em;
+}
+
+/* Home Styling */
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 6rem;
+  text-align: center;
+}
+
+#tagline {
+  text-align: center;
+  font-size: 3rem;
+  color: #6c63ff;
+  font-family: "Caveat", cursive;
+}
+
+/* Projects Styling */
+
+/* Adjust color for contrast with image */
+.carousel-caption {
+  color: black;
+}
+
+/* Skills Styling */
+ion-icon {
+  font-size: 64px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  background-color: #6c63ff !important;
+}
+
+/* Footer Styling */
+footer {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  padding: 20px;
+}
+
+/* Remove default link styling */
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer ion-icon {
+  transition: 0.2s; /* Animation duration */
+}
+
+footer ion-icon:hover {
+  color: #6c63ff;
+  transform: scale(1.1);
+}
+
+/* Styles for the site on small devices*/
+@media only screen and (max-width: 600px) {
+  main .container-fluid,
+  .container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+  }
+
+  .navbar-toggler-icon {
+    color: #6c63ff;
+  }
+
+  footer ul li {
+    padding: 5px;
+  }
+
+  footer ion-icon {
+    font-size: 32px;
+  }
+}
